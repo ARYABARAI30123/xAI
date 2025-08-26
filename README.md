@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/ba9e6967-8dff-4809-8c7b-512180234a7d
 
 ## 📄Final Project PPT
 
-[MUFG Hackathon-Final PPT.pdf](https://github.com/user-attachments/files/21975836/MUFG.Hackathon-Final.PPT.pdf)
+https://www.canva.com/design/DAGwnYX-Tq8/dV4hMY3JoScgAp563h85KA/edit?utm_content=DAGwnYX-Tq8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ##  Features <a name="features"></a>  
 
