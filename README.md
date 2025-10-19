@@ -6,9 +6,6 @@ It uses a hybrid approach (ML + rule-based) so it stays smart, simple, and works
 And it’s not just a bot — it’s an intelligent, responsible and self-explanatory assistant that makes insurance easy to understand.
 
 ---
-## 🔗 Final Project Deployed Link 
-
-http://13.200.250.84/
 
 ## 🎥 Final Project Demo Video  
 
