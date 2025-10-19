@@ -65,7 +65,7 @@ https://www.canva.com/design/DAGwnYX-Tq8/dV4hMY3JoScgAp563h85KA/edit?utm_content
 
 ##  Architecture <a name="architecture"></a>  
 
-<img width="794" height="980" alt="diagram-export-8-22-2025-12_37_47-PM" src="https://github.com/user-attachments/assets/570bd088-ea15-449c-ac77-29e64f602313" />
+<img width="794" height="980" alt="diagram-export-8-22-2025-12_37_47-PM" src="https://raw.githubusercontent.com/ARYABARAI30123/xAI/main/mufg-insurance-frontend/public/images/architecture.png" />
 
 ## Dataset
 https://drive.google.com/drive/folders/1-j18M_fTbyKM5-6jziycuqmet79JUO-E?usp=sharing - – dive into the raw data!
@@ -118,6 +118,14 @@ You can find the complete explainability demonstration in the `explainability_de
 * Sample decision tree snippets
 * Detailed analysis of feature importance
 
+Here are some visualizations from our explainability analysis:
+
+**SHAP Summary Plot**:
+![SHAP Summary](https://raw.githubusercontent.com/ARYABARAI30123/xAI/main/explainability_demo/shap_summary.png)
+
+**SHAP Force Plot**:
+![SHAP Force Plot](https://raw.githubusercontent.com/ARYABARAI30123/xAI/main/explainability_demo/shap_force.png)
+
 This transparency helps users trust our system's recommendations and understand the reasoning behind each suggestion.
 
 ---
@@ -126,22 +134,22 @@ This transparency helps users trust our system's recommendations and understand 
 
 ### Landing Page
 
-![WhatsApp Image 2025-08-22 at 14 16 18_7fc28560](https://github.com/user-attachments/assets/ae0cfefd-4560-4cd6-a8c7-1f266c15e09a)
+![Landing Page](https://raw.githubusercontent.com/ARYABARAI30123/xAI/main/mufg-insurance-frontend/public/images/landing.png)
 
 
 ### Country Selection
 
-![WhatsApp Image 2025-08-22 at 14 16 19_0d3c756a](https://github.com/user-attachments/assets/e70790be-e3e4-47b2-8840-1d627a0e7367)
+![Country Selection](https://raw.githubusercontent.com/ARYABARAI30123/xAI/main/mufg-insurance-frontend/public/images/country.png)
 
 
 ### Insurance Type Selection
 
-![WhatsApp Image 2025-08-22 at 14 16 19_9d123212](https://github.com/user-attachments/assets/89f8c71b-9b80-42d2-9994-cd0fe1de0fd4)
+![Insurance Type Selection](https://raw.githubusercontent.com/ARYABARAI30123/xAI/main/mufg-insurance-frontend/public/images/insurance_type.png)
 
 
 ### Recommendations Page
 
-![WhatsApp Image 2025-08-22 at 14 16 19_98f81708](https://github.com/user-attachments/assets/f8c7ae6e-8e26-450c-8d8e-5e71e3abf113)
+![Recommendations Page](https://raw.githubusercontent.com/ARYABARAI30123/xAI/main/mufg-insurance-frontend/public/images/recommendations.png)
 
 
 ---
