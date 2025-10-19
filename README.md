@@ -1,4 +1,4 @@
-# 🤖 Guard Bot - AI-Powered Insurance Recommendation System  
+# 🤖 MUFG Shield - AI-Powered Insurance Recommendation System  
 
 ##  Overview  
 Guard Bot is an intelligent recommendation system that helps users find the most suitable insurance policies based on their profile and requirements. The system supports multiple insurance types across different countries, leveraging machine learning and natural language processing to provide personalized recommendations with clear explanation. 
