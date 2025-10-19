@@ -1,0 +1,289 @@
+|--- tripcancellationcoverage <= 1.50
+|   |--- class: 3.0
+|--- tripcancellationcoverage >  1.50
+|   |--- ageofvehicle <= 7.77
+|   |   |--- propertytype <= 2.50
+|   |   |   |--- class: 1.0
+|   |   |--- propertytype >  2.50
+|   |   |   |--- typeofvehicle <= 4.50
+|   |   |   |   |--- class: 4.0
+|   |   |   |--- typeofvehicle >  4.50
+|   |   |   |   |--- policytier <= 1.50
+|   |   |   |   |   |--- policytier <= 0.50
+|   |   |   |   |   |   |--- numdiseases <= 0.50
+|   |   |   |   |   |   |   |--- annualpremium <= 26484.50
+|   |   |   |   |   |   |   |   |--- name <= 3826.00
+|   |   |   |   |   |   |   |   |   |--- name <= 3303.50
+|   |   |   |   |   |   |   |   |   |   |--- sumassured <= 2385223.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- sumassured >  2385223.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- name >  3303.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 33.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- age >  33.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- name >  3826.00
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- annualpremium >  26484.50
+|   |   |   |   |   |   |   |   |--- smokerdrinker <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- smokerdrinker >  0.50
+|   |   |   |   |   |   |   |   |   |--- name <= 2825.50
+|   |   |   |   |   |   |   |   |   |   |--- annualpremium <= 26695.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- annualpremium >  26695.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- name >  2825.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- numdiseases >  0.50
+|   |   |   |   |   |   |   |--- annualpremium <= 22537.00
+|   |   |   |   |   |   |   |   |--- diseases <= 16.50
+|   |   |   |   |   |   |   |   |   |--- smokerdrinker <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- diseases <= 6.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- diseases >  6.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- smokerdrinker >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 28.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- age >  28.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- diseases >  16.50
+|   |   |   |   |   |   |   |   |   |--- annualpremium <= 21158.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 34.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- age >  34.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- annualpremium >  21158.50
+|   |   |   |   |   |   |   |   |   |   |--- name <= 2966.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- name >  2966.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- annualpremium >  22537.00
+|   |   |   |   |   |   |   |   |--- smokerdrinker <= 0.50
+|   |   |   |   |   |   |   |   |   |--- annualpremium <= 30679.50
+|   |   |   |   |   |   |   |   |   |   |--- annualpremium <= 26401.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- annualpremium >  26401.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- annualpremium >  30679.50
+|   |   |   |   |   |   |   |   |   |   |--- diseases <= 110.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- diseases >  110.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- smokerdrinker >  0.50
+|   |   |   |   |   |   |   |   |   |--- age <= 40.50
+|   |   |   |   |   |   |   |   |   |   |--- name <= 3188.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- name >  3188.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- age >  40.50
+|   |   |   |   |   |   |   |   |   |   |--- sumassured <= 2438261.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- sumassured >  2438261.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- policytier >  0.50
+|   |   |   |   |   |   |--- diseases <= 166.00
+|   |   |   |   |   |   |   |--- age <= 58.50
+|   |   |   |   |   |   |   |   |--- annualpremium <= 63998.00
+|   |   |   |   |   |   |   |   |   |--- numdiseases <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- name <= 1374.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- name >  1374.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- numdiseases >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- name <= 65.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- name >  65.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |--- annualpremium >  63998.00
+|   |   |   |   |   |   |   |   |   |--- age <= 18.50
+|   |   |   |   |   |   |   |   |   |   |--- name <= 567.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- name >  567.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- age >  18.50
+|   |   |   |   |   |   |   |   |   |   |--- sumassured <= 4351450.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- sumassured >  4351450.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |--- age >  58.50
+|   |   |   |   |   |   |   |   |--- name <= 2581.50
+|   |   |   |   |   |   |   |   |   |--- smokerdrinker <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 59.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- age >  59.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- smokerdrinker >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- numdiseases <= 1.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- numdiseases >  1.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- name >  2581.50
+|   |   |   |   |   |   |   |   |   |--- numdiseases <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- numdiseases >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- diseases >  166.00
+|   |   |   |   |   |   |   |--- sumassured <= 4262630.00
+|   |   |   |   |   |   |   |   |--- annualpremium <= 50785.50
+|   |   |   |   |   |   |   |   |   |--- sumassured <= 3802834.50
+|   |   |   |   |   |   |   |   |   |   |--- name <= 2469.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- name >  2469.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- sumassured >  3802834.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 58.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- age >  58.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- annualpremium >  50785.50
+|   |   |   |   |   |   |   |   |   |--- annualpremium <= 60639.00
+|   |   |   |   |   |   |   |   |   |   |--- numdiseases <= 3.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- numdiseases >  3.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- annualpremium >  60639.00
+|   |   |   |   |   |   |   |   |   |   |--- annualpremium <= 64654.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- annualpremium >  64654.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- sumassured >  4262630.00
+|   |   |   |   |   |   |   |   |--- numdiseases <= 1.00
+|   |   |   |   |   |   |   |   |   |--- smokerdrinker <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- annualpremium <= 56735.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- annualpremium >  56735.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- smokerdrinker >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 47.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- age >  47.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- numdiseases >  1.00
+|   |   |   |   |   |   |   |   |   |--- sumassured <= 4502799.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- sumassured >  4502799.50
+|   |   |   |   |   |   |   |   |   |   |--- smokerdrinker <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- smokerdrinker >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- policytier >  1.50
+|   |   |   |   |   |--- name <= 3797.00
+|   |   |   |   |   |   |--- annualpremium <= 82128.00
+|   |   |   |   |   |   |   |--- name <= 3779.00
+|   |   |   |   |   |   |   |   |--- diseases <= 193.50
+|   |   |   |   |   |   |   |   |   |--- diseases <= 191.00
+|   |   |   |   |   |   |   |   |   |   |--- numdiseases <= 3.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- numdiseases >  3.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- diseases >  191.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- diseases >  193.50
+|   |   |   |   |   |   |   |   |   |--- age <= 19.50
+|   |   |   |   |   |   |   |   |   |   |--- diseases <= 196.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- diseases >  196.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- age >  19.50
+|   |   |   |   |   |   |   |   |   |   |--- smokerdrinker <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- smokerdrinker >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |--- name >  3779.00
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- annualpremium >  82128.00
+|   |   |   |   |   |   |   |--- annualpremium <= 87116.50
+|   |   |   |   |   |   |   |   |--- annualpremium <= 82415.50
+|   |   |   |   |   |   |   |   |   |--- annualpremium <= 82366.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- annualpremium >  82366.00
+|   |   |   |   |   |   |   |   |   |   |--- numdiseases <= 2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- numdiseases >  2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- annualpremium >  82415.50
+|   |   |   |   |   |   |   |   |   |--- sumassured <= 5539607.00
+|   |   |   |   |   |   |   |   |   |   |--- numdiseases <= 2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- numdiseases >  2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- sumassured >  5539607.00
+|   |   |   |   |   |   |   |   |   |   |--- annualpremium <= 83950.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- annualpremium >  83950.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |--- annualpremium >  87116.50
+|   |   |   |   |   |   |   |   |--- annualpremium <= 88888.50
+|   |   |   |   |   |   |   |   |   |--- numdiseases <= 1.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- numdiseases >  1.50
+|   |   |   |   |   |   |   |   |   |   |--- sumassured <= 5692510.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- sumassured >  5692510.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- annualpremium >  88888.50
+|   |   |   |   |   |   |   |   |   |--- annualpremium <= 89754.50
+|   |   |   |   |   |   |   |   |   |   |--- name <= 2682.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- name >  2682.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- annualpremium >  89754.50
+|   |   |   |   |   |   |   |   |   |   |--- age <= 55.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- age >  55.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |--- name >  3797.00
+|   |   |   |   |   |   |--- diseases <= 64.50
+|   |   |   |   |   |   |   |--- age <= 56.50
+|   |   |   |   |   |   |   |   |--- annualpremium <= 75076.00
+|   |   |   |   |   |   |   |   |   |--- policytier <= 2.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- policytier >  2.50
+|   |   |   |   |   |   |   |   |   |   |--- name <= 3835.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- name >  3835.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- annualpremium >  75076.00
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- age >  56.50
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- diseases >  64.50
+|   |   |   |   |   |   |   |--- age <= 44.00
+|   |   |   |   |   |   |   |   |--- policytier <= 2.50
+|   |   |   |   |   |   |   |   |   |--- sumassured <= 5479377.50
+|   |   |   |   |   |   |   |   |   |   |--- sumassured <= 5159985.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- sumassured >  5159985.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- sumassured >  5479377.50
+|   |   |   |   |   |   |   |   |   |   |--- smokerdrinker <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- smokerdrinker >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- policytier >  2.50
+|   |   |   |   |   |   |   |   |   |--- name <= 3879.50
+|   |   |   |   |   |   |   |   |   |   |--- sumassured <= 3129998.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- sumassured >  3129998.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- name >  3879.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- age >  44.00
+|   |   |   |   |   |   |   |   |--- age <= 52.00
+|   |   |   |   |   |   |   |   |   |--- annualpremium <= 40458.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- annualpremium >  40458.00
+|   |   |   |   |   |   |   |   |   |   |--- name <= 3873.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- name >  3873.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- age >  52.00
+|   |   |   |   |   |   |   |   |   |--- numdiseases <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- numdiseases >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |--- ageofvehicle >  7.77
+|   |   |--- class: 4.0

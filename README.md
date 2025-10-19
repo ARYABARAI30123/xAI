@@ -104,6 +104,22 @@ https://github.com/user-attachments/assets/02b9e85e-41c1-46da-a7ce-79a2e3fce182
   * Queries combine retrieved embeddings + graph reasoning
   * LLM uses this structured context to produce **explainable recommendations**
 
+## Model Explainability
+
+Our system features an interactive explainability demo that helps users understand how the AI makes decisions:
+
+* **Decision Tree Visualization**: Clear representation of the model's decision-making process
+* **Feature Importance Analysis**: Shows which factors most influence recommendations
+* **Interactive Jupyter Notebook**: Allows users to explore and understand the model's behavior
+* **Sample Decision Paths**: Visual examples of how different user inputs lead to specific recommendations
+
+You can find the complete explainability demonstration in the `explainability_demo` folder, which includes:
+* Interactive Jupyter notebook with visualizations
+* Sample decision tree snippets
+* Detailed analysis of feature importance
+
+This transparency helps users trust our system's recommendations and understand the reasoning behind each suggestion.
+
 ---
 
 ## UI Screenshots
