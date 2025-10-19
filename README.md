@@ -12,7 +12,7 @@ http://13.200.250.84/
 
 ## 🎥 Final Project Demo Video  
 
-https://github.com/user-attachments/assets/ba9e6967-8dff-4809-8c7b-512180234a7d
+https://raw.githubusercontent.com/ARYABARAI30123/xAI/main/mufg-insurance-frontend/public/videos/demo.mp4
 
 ## 📄Final Project PPT
 
@@ -75,11 +75,8 @@ https://drive.google.com/drive/folders/1-j18M_fTbyKM5-6jziycuqmet79JUO-E?usp=sha
 * **2 CSVs** → \~**10,000×25 rows each**, split between India & Australia
 * Used for **model training, Graph RAG retrieval, and PowerBI dashboards**
 
-
-
-https://github.com/user-attachments/assets/02b9e85e-41c1-46da-a7ce-79a2e3fce182
-
-
+**Data Processing Pipeline**:
+![Data Processing Pipeline](https://raw.githubusercontent.com/ARYABARAI30123/xAI/main/mufg-insurance-frontend/public/images/data_pipeline.png)
 
 ---
 
