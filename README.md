@@ -180,6 +180,18 @@ Guard Bot is an intelligent recommendation system that helps users find the most
   ◦ Queries combine retrieved embeddings + graph reasoning
   ◦ LLM uses this structured context to produce explainable recommendations
 
+## Explainability Demo
+
+Our system includes an interactive explainability demo to help users understand how AI model decisions are made:
+
+- **Decision Tree Visualization**: See how the model arrives at recommendations step-by-step.
+- **Feature Importance Analysis**: Discover which features most influence the model's output.
+- **SHAP Visualizations**: 
+  - ![SHAP Force Plot](explainability_demo/shap_force.png)
+  - ![SHAP Summary Plot](explainability_demo/shap_summary.png)
+
+Explore the `explainability_demo` folder for a Jupyter notebook and sample decision tree snippets. These visualizations provide transparency and build trust in the system's recommendations.
+
 ## UI Screenshots
 ### Landing Page
 ### Country Selection
