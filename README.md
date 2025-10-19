@@ -36,7 +36,8 @@ https://www.canva.com/design/DAGwnYX-Tq8/dV4hMY3JoScgAp563h85KA/edit?utm_content
 - **Smart Recommendations**: ML models trained on extensive insurance data  
 - **Natural Language Processing**: Advanced chat interface using LangChain  
 - **Real-time Premium Calculation**: Instant cost estimates  
-- **Policy Explanation**: AI-generated simple explanations of complex terms  
+- **Policy Explanation**: AI-generated simple explanations of complex terms
+  
 - **Graph RAG Integration**:  
   - Retrieves knowledge from **40 PDFs** and **2 CSVs (10,000×25 rows each)**  
   - Data divided between India & Australia, aligned with **IRDAI & APRA regulations**  
@@ -213,7 +214,7 @@ Response:
 └── vectorstore/           # ChromaDB storage
 ```
 
-## Hackathon Use Cases
+## Use Cases
 • Personalized Policy Recommendations: ML + Graph RAG based
 • Explainable AI: Transparent decision-making
 • Regulation-Aware Analytics: IRDAI & APRA compliance
