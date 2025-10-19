@@ -117,10 +117,18 @@ Our system includes an interactive explainability demo to help users understand 
 Explore the `explainability_demo` folder for a Jupyter notebook and sample decision tree snippets. These visualizations provide transparency and build trust in the system's recommendations.
 
 ## UI Screenshots
-### Landing Page
-### Country Selection
-### Insurance Type Selection
+### Landing Page 
+<img width="1036" height="559" alt="Screenshot 2025-10-19 093046" src="https://github.com/user-attachments/assets/02e8fae1-decb-4684-b0ab-bdff541ff1ec" />
+
+### Country Selection  
+<img width="1030" height="718" alt="Screenshot 2025-10-19 093055" src="https://github.com/user-attachments/assets/800826a0-c962-4bed-97d9-533e6f9a9213" />
+
+### Insurance Type Selection 
+<img width="1019" height="560" alt="Screenshot 2025-10-19 093106" src="https://github.com/user-attachments/assets/672f5e1f-2e18-4319-8297-770185f81314" />
+
 ### Recommendations Page
+<img width="516" height="794" alt="Screenshot 2025-10-19 093124" src="https://github.com/user-attachments/assets/ef84c5d1-0a61-4c0f-9b1f-840396d2774a" />
+
 
 ## Setup and Installation
 ### Prerequisites
